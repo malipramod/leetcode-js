@@ -3,7 +3,7 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = function(s, numRows) {
+const convert = function(s, numRows) {
     
     let arr = [];
     for (let i = 0; i < numRows; i++) {
