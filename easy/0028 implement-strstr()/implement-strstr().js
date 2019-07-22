@@ -19,8 +19,8 @@ var strStr = function (haystack, needle) {
     return -1;
 };
 
-// var strStr = function (haystack, needle) {
-//     return haystack.indexOf(needle)
-// };
+var strStr = function (haystack, needle) {
+    return haystack.indexOf(needle)
+};
 
 console.log(strStr("hello", "ll"))
