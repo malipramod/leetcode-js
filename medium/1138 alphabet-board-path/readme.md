@@ -40,3 +40,7 @@ Output: "RR!DDRR!UUL!R!"
 1 <= target.length <= 100
 
 target consists only of English lowercase letters.
+
+## More Info
+
+<https://leetcode.com/problems/alphabet-board-path/>

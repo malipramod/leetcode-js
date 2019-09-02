@@ -17,3 +17,7 @@ Output: "leotcede"
 ## Note
 
 The vowels does not include the letter "y".
+
+## More Info
+
+<https://leetcode.com/problems/reverse-string/>
