@@ -38,5 +38,16 @@ var missingNumber3 = function (nums) {
     return missing;
 }
 
-console.log(missingNumber3([3, 0, 1]))
-console.log(missingNumber3([9, 6, 4, 2, 3, 5, 7, 0, 1]))
+//Gauss' Formula
+var missingNumber4 = function (nums) {
+    let n = nums.length;
+    let target = n*(n +1)/2
+    let sum = 0;
+    for(let i = 0; i < n; i++){
+        sum += nums[i];
+    }
+       return target-sum; 
+}
+
+console.log(missingNumber4([3, 0, 1]))
+console.log(missingNumber4([9, 6, 4, 2, 3, 5, 7, 0, 1]))
