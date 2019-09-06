@@ -1,5 +1,5 @@
 /**
- * Fails as number is out of range
+ * Fails as number is out of range: Second example
  * @param {string} num1
  * @param {string} num2
  * @return {string}
